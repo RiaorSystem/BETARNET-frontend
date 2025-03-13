@@ -1,0 +1,67 @@
+{
+  "expo": {
+    "name": "BETANET",
+    "slug": "BETANET",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": {
+      "dark": "./assets/icons/ios-Dark.png",
+      "light": "./assets/icons/ios-Light.png",
+      "tinted": "./assets/icons/ios-tinted.png"
+    },
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/icons/splash-icon-dark.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff",
+      "dark": {
+        "image": "./assets/icons/splash-icon-light.png",
+        "backgroundColor": "#000000"
+      }
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.riaor.BETANET",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icons/adaptive-icon.png",
+        "monochromeImage": "./assets/icons/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.riaor.BETANET"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "351f5b76-06ff-444d-a42a-f577c4218dcd"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/180e1caf-12f0-43bc-b9f4-046378b2fa96"
+    }
+  }
+}
